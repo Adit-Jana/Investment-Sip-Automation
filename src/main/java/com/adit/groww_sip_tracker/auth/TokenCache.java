@@ -60,8 +60,6 @@ public class TokenCache {
                 logger.info("Reusing cached token. Expires at: " + expiryFormatted);
                 return cachedToken;
             }
-
-
         }
         return null;
     }
