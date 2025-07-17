@@ -1,12 +1,18 @@
 package com.adit.groww_sip_tracker.security;
 
+import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
 import java.util.Base64;
 
+@Slf4j
 public class CryptoUtils {
 
     private static final String ALGO = "AES";
+    private static final Logger log = LoggerFactory.getLogger(CryptoUtils.class);
 
     /**
      * Encrypts a plain text secret using AES and returns a base64-encoded ciphertext.
@@ -56,7 +62,7 @@ public class CryptoUtils {
             byte[] decrypted = cipher.doFinal(decodedCipher);
             return new String(decrypted);
         } catch (Exception e) {
-            e.printStackTrace();
+            log.error("Exception occurred due to", e);
         }
         return "";
     }
