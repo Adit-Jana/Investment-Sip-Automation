@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.adit</groupId>
-	<artifactId>investment-sip-automation</artifactId>
+	<artifactId>investment-sip-automation-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>investment-sip-automation</name>
-	<description>Timely SIP on Groww</description>
+	<name>investment-sip-automation-service</name>
+	<description>Timely SIP on investment</description>
 	<url/>
 	<licenses>
 		<license/>

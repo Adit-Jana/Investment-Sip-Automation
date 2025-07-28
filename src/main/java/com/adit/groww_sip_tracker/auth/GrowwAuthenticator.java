@@ -8,6 +8,14 @@ import okhttp3.*;
 
 public class GrowwAuthenticator {
 
+
+    /*
+    * Authentication module will authenticate with broker
+    * Authenticate through api key and API secret
+    * API secret will be shared by broker only
+    * */
+
+
     public static String getAccessToken() throws Exception {
         // Check cache first
         String cached = TokenCache.getToken();
