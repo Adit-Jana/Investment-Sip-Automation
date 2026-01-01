@@ -1,1 +1,1 @@
-SIP investment automation to get best average
+SIP investment automation to get best average.
