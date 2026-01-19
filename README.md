@@ -3,5 +3,6 @@ New Investment registered
 Customized 
 Scheduled
 Maintainable
+Scalable
 
 
