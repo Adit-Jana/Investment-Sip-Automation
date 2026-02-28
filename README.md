@@ -6,9 +6,6 @@ Maintainable
 Scalable
 
 
-WIP
-WIP1
-
 
 
 
