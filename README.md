@@ -5,6 +5,7 @@ Scheduled
 Maintainable
 Scalable
 Highly available
+Configurable
 
 
 
